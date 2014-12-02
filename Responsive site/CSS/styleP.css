@@ -1,0 +1,602 @@
+@font-face {
+    font-family: 'icomoon';
+    src:url('../Icons/icomoon.eot');
+    src:url('../Icons/icomoon.eot?#iefix') format('embedded-opentype'),
+        url('../Icons/icomoon.woff') format('woff'),
+        url('../Icons/icomoon.ttf') format('truetype'),
+        url('../Icons/icomoon.svg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* -------------------------------------------------------------------------------------------
+     Reset style sheet to take of the padding and etc which is added to the browser by default
+   -------------------------------------------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+
+}
+
+#top{
+width:100%;
+height:220px;
+background-color:black;
+}
+
+#topStyle{
+width:90%;
+height:100%;
+background-color:black;
+margin-left:50px;
+}
+
+#logo{
+width:300px;
+height:230px;
+background-color:blue;
+}
+
+#bignester
+{
+    background-color:orange;
+height:100%;
+width:100%;
+margin: 0px;
+padding:0px;
+}
+
+#body{
+width:80%;
+height:600px;
+margin-left:12%;
+float:left;
+margin-top:50px;
+}
+
+#bottom{
+width:100%;
+height:20%;
+background:black;
+float:left;
+margin-top:15px;
+
+}
+
+#left 
+{
+width:50%;
+height:50%;
+float:left;
+text-align: center;
+}
+#right
+{
+width:50%;
+height:50%;
+float:right;
+text-align: center;
+
+}
+#bottomleft
+{
+width:50%;
+height:50%;
+border-color: blue;
+float:left;
+text-align: center;
+
+}
+#bottomright
+{
+width:50%;
+height:50%;
+border-color: blue;
+float:right;
+text-align: center;
+
+}
+
+
+
+/* Style for unordered list within nav tag */
+/*ul.drop {
+    list-style: ;
+    padding: 0 20px;    
+    margin: 0;
+    position:relative;
+    width: 920px;
+    background: #222;
+    font-size: 1.2em;
+    
+}
+ul.drop li {
+    float: left;
+    margin: 0;  
+    padding: 0 15px 0 0;
+    position: relative; /*--Declare X and Y axis base for sub navigation--*/
+/*}
+/*ul.drop li a{
+    padding: 10px 5px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    float: left;
+}
+ul.drop li a:hover{
+    
+}
+ul.drop li span { /*--Drop down trigger styles--*/
+  /*  width: 17px;
+    height: 35px;
+    float: left;
+
+}
+ul.drop li span.subdrop:hover {background-position: center bottom; cursor: pointer;} /*--Hover effect for trigger--*/
+/*ul.drop li ul.subdrop {
+    list-style: none;
+    position: absolute; /*--Important - Keeps subdrop from affecting main navigation flow--*/
+  /*  left: 0; top: 35px;
+    background: #333;
+    margin: 0; padding: 0;
+    display: none;
+    float: left;
+    width: 170px;
+    border: 1px solid #111;
+}
+ul.drop li ul.subdrop li{
+    margin: 0; padding: 0;
+    border-top: 1px solid #252525; /*--Create bevel effect--*/
+    /*border-bottom: 1px solid #444; /*--Create bevel effect--*/
+    /*clear: both;
+    width: 170px;
+} */
+
+
+body {
+background-image:url("../Pictures/bp3.jpg");
+
+
+}
+
+#icons{
+margin-top:15px; 
+margin-bottom:10px; 
+float:right;
+}
+
+#table{
+width:170px; 
+}
+
+#picWrapper{
+width:80%;
+margin-top:2%;
+margin-left:10%;
+height:175px;
+float:left;
+
+}
+
+#pic1, #pic2, #pic3, #pic4{
+width:20%;
+height:175px;
+}
+
+#pic1, #picWrapper, #slideshow2, #logo, #slideshow, #pic4, #filler2, #filler3, #spacer
+{
+float:left
+}
+
+#pic2, #filler, #pic3
+{
+float:right;
+}
+
+#pic3{
+margin-right:8%;
+}
+
+#pic4{
+margin-left:4%;
+}
+
+#pricelist{
+height:90%;
+width:90%;
+margin-left:0;
+margin-right:0;
+margin-top:1%;
+
+}
+
+#filler{
+height:5%;
+width:100%;
+}
+
+#filler2{
+height:60%;
+width:60%;
+background-color:black
+}
+
+h3, h4, h5, h2
+{
+color:white;
+text-align: center;
+}
+
+#filler3{
+height:40%;
+width:60%;
+background:black;
+position:relative;
+left:0px;
+top:0px;
+}
+
+#spacer{
+height:100%;
+width:15%;
+}
+
+
+
+ #contactus, #pricelist, #events, #location
+ {
+border-left: solid 1px;
+border-left-color:white;
+}
+
+ #contactus:hover h3, #pricelist:hover h3, #events:hover h3, #location:hover h3, #h2:hover h3
+{
+color:#808080;
+}
+
+div.clickable
+{
+position:relative;
+}
+
+div.clickable a 
+{
+position:absolute;
+width:100%;
+height:100%;
+top:0;
+left:0;
+text-decoration:none;
+z-index:10;
+background-color:blue;
+opacity:0;
+filter: alpha(opacity=10);
+}
+
+#h{
+color:#808080;
+}
+
+#secondspacer, #imageholder
+{
+width:100%;
+height:50%;
+}
+
+#bottomstyle{
+width:70%;
+height:250px;
+margin-left:15%;
+margin-top:3%;
+}
+
+#bh, #bl, #bc, #be
+{
+background: :red;
+height:100%;
+width:15%;
+float:left;
+}
+#bh{position: relative; left:0px;}
+#bl{position: relative; left:10%;}
+#bc{position: relative; left:27%;}
+#be{position: relative; left:43%;}
+
+.sb-search {
+    position: relative;
+    margin-top: 10px;
+    width: 0%;
+    min-width: 60px;
+    height: 60px;
+    float: right;
+    overflow: hidden;
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    transition: width 0.3s;
+    -webkit-backface-visibility: hidden;
+}
+
+.sb-search-input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    outline: none;
+    background: #fff;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    z-index: 10;
+    padding: 20px 65px 20px 20px;
+    font-family: inherit;
+    font-size: 20px;
+    color: #2c3e50;
+}
+ 
+input[type="search"].sb-search-input {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+}
+
+.sb-search-input:-moz-placeholder, .sb-search-input::-webkit-input-placeholder ,.sb-search-input::-moz-placeholder, .sb-search-input:-ms-input-placeholder {
+{
+    color: #efb480;
+}
+
+.sb-icon-search,
+.sb-search-submit  {
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sb-search-submit {
+    background: #fff; /* IE needs this */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0); /* IE 5-7 */
+    opacity: 0;
+    color: transparent;
+    border: none;
+    outline: none;
+    z-index: -1;
+}
+
+.sb-icon-search {
+    color: #fff;
+    background: #e67e22;
+    z-index: 90;
+    font-size: 22px;
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+.sb-search.sb-search-open, .no-js .sb-search 
+{
+ width: 100%;
+}
+
+.sb-search.sb-search-open .sb-icon-search,
+.no-js .sb-search .sb-icon-search {
+    background: #da6d0d;
+    color: #fff;
+    z-index: 11;
+}
+
+.sb-search.sb-search-open .sb-search-submit,
+.no-js .sb-search .sb-search-submit {
+    z-index: 90;
+}
+
+
+/* -----------------------------
+    Handles the nav bar 
+   ------------------------------ */
+ 
+
+/*body{
+    padding: 200px 0 0;
+    font:14px/1.3 'Segoe UI',Arial, sans-serif;
+    min-height:200px;*/
+}
+
+a, a:visited {
+    text-decoration:none;
+    outline:none;
+    color:#54a6de;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+ nav{
+    display:block;
+    position:relative;
+    left:0px;
+	bottom:0px;
+
+}
+
+
+/*----------------------------
+    The Navigation Menu
+-----------------------------*/
+
+
+#colorNav > ul{
+    width: 100%; /*width of ul */
+    margin:0 auto;
+	
+}
+
+#colorNav > ul > li{ /* styles the top level li*/
+    list-style: none;
+    box-shadow: 0 0 10px rgba(100, 100, 100, 0.2) inset,1px 1px 1px #CCC;
+    display: inline-block;
+    line-height: 1;
+    margin: 1px;
+    border-radius: 3px;
+    position:relative;
+    text-align:center;
+    width: 100px;
+    left:0px;
+
+
+}
+
+#colorNav > ul > li > a{
+    color:inherit;
+    text-decoration:none !important;
+    font-size:25px;
+    padding: 25px;
+    text-align:center;
+
+}
+
+#colorNav li ul{
+    position:absolute;
+    list-style:none;
+    text-align:center;
+    width:100px;
+    left:50%;
+    margin-left:-90px;
+    top:70px;
+    font:bold 12px 'Open Sans Condensed', sans-serif;
+    
+    /* Stops the child elements from there postioning acting strangly due to the display;;inline-block */
+    max-height:0px;
+    overflow:hidden;
+    
+    -webkit-transition:max-height 0.4s linear;
+    -moz-transition:max-height 0.4s linear;
+    transition:max-height 0.4s linear;
+}
+
+#colorNav li ul li{
+    background-color:#313131;
+}
+
+#colorNav li ul li a{
+    padding:12px;
+    color:#fff !important;
+    text-decoration:none !important;
+    display:block;
+}
+
+#colorNav li ul li:nth-child(odd){ /* zebra stripes */
+    background-color:#363636;
+}
+
+#colorNav li ul li:hover{
+    background-color:#444;
+}
+
+#colorNav li ul li:first-child{
+    border-radius:3px 3px 0 0;
+    margin-top:25px;
+    position:relative;
+}
+
+#colorNav li ul li:first-child:before{ /* the pointer tip */
+    content:'';
+    position:absolute;
+    width:1px;
+    height:1px;
+    border:5px solid transparent;
+    border-bottom-color:#313131;
+    left:50%;
+    top:-10px;
+    margin-left:-5px;
+}
+
+
+#colorNav li ul li:last-child{
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+}
+
+/* This will trigger the CSS */
+/* transition animation on hover */
+
+#colorNav li:hover ul{
+    max-height:200px; /* Increase when adding more dropdown items */
+}
+nav ul li a span {
+                    font: 20px "Dosis", sans-serif; text-transform: uppercase; 
+                    display: none;
+                }
+                    nav li > a:hover span {
+                        display: block;
+                    }
+
+/* the position in which they are displayed, They are coded like this to reduce the number of lines of code */
+nav  ul li.green span{ position:absolute; left: 530px; top: 29px;}
+nav  ul li.red span{ position:absolute; left: 430px; top: 29px;}
+nav  ul li.blue span{ position:absolute; left: 310px; top: 29px;}
+nav  ul li.yellow span{ position:absolute; left: 210px; top: 29px;}
+nav  ul li.purple span{ position:absolute; left: 110px; top: 29px;}
+
+                    
+
+                    
+
+
+
+
+/*----------------------------
+    Color Themes
+-----------------------------*/
+
+
+#colorNav li.green{
+    /* This is the color of the menu item */
+    background-color:#00c08b;
+    
+    /* This is the color of the icon */
+    color:#127a5d;
+}
+
+#colorNav li.red{background-color:#ea5080;color:#aa2a52;}
+#colorNav li.blue{text-align: left;   background-color:#53bfe2;color:#2884a2;}
+#colorNav li.yellow{background-color:#f8c54d;color:#ab8426;}
+#colorNav li.purple{background-color:#df6dc2;color:#9f3c85;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
